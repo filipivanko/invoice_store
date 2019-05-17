@@ -11,7 +11,7 @@
     </head>
     <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Certificate Store</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -44,14 +44,47 @@
 </nav>
 
 <div class="container">
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4">Certificate Store</h1>
+        <p class="lead my-3">SSL certificate managament application</p>
+        <p class="lead my-2">Store, test and preview yor SSL certificates</p>
+      </div>
     </div>
-</div>
 
-    </body>
+
+  <div class="row mb-3">
+        <div class="col-lg-6 mb-2">
+          <svg class="bd-placeholder-img" width="auto" height="auto" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <p class="mt-2"><a class="btn btn-secondary" width="auto" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-6 mb-2">
+          <svg class="bd-placeholder-img" width="auto" height="auto" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <p class="mt-2"><a class="btn btn-secondary" width="auto" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+
+      <div class="row mb-3 mt-5">
+        <div class="col-lg-6 mb-3">
+          <svg class="bd-placeholder-img" width="auto" height="auto" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <p class="mt-2"><a class="btn btn-secondary" width="auto" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-6 mb-3">
+          <svg class="bd-placeholder-img" width="auto" height="auto" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          <p class="mt-2"><a class="btn btn-secondary" width="auto" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div>
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark mt-5">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4">Certificate Store</h1>
+        <p class="lead my-3">SSL certificate managament application</p>
+        <p class="lead my-2">Store, test and preview yor SSL certificates</p>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
 
