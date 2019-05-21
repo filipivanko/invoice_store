@@ -11,6 +11,7 @@
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
       </head>
 <body>
+  <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Certificate Store</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +47,9 @@
           </form>
         </div>
       </nav>
+      <!-- input container -->
       <div class="container mt-2 bg-color ">
+        <!-- input card -->
          <div class="card card-body bg-dark text-light border-0">
            <div class="row  mt-2">
              <div class="col-11">
@@ -105,14 +108,16 @@
                  </div>
                 </div>
 
-
+      <!-- button area -->
             <div class="mt-2">
                 <button type="button" class="btn btn-light">Light</button>
                <button type="button" class="btn btn-light">Light</button>
             </div>
          </div>
       </div>
+      <!-- details container -->
       <div class="container mt-2">
+        <!-- details card -->
           <div class="card card-body bg-light border-0">
             lorem ipsum
           </div>
