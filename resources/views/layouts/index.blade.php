@@ -78,7 +78,7 @@
                 <div class="invalid-feedback">Example invalid custom file feedback
                 </div>
               </div>
-            </div>
+               </div>
 
             <div class="col-1">
               <i style='font-size:35px' class='fas'>&#xf0a3;</i>
@@ -144,7 +144,7 @@
           <div class="col-6">
             <div class="card mb-2 mr-1 card-body bg-dark text-light border-0">
               <div class="form-group">
-                <label for="comment">Comment:</label>
+                <label for="comment">Certifikat</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
             </div>
@@ -153,7 +153,7 @@
           <div class="col-6">
             <div class="card col ml-1 mb-2 card-body bg-dark text-light border-0">
               <div class="form-group">
-                <label for="comment">Comment:</label>
+                <label for="comment">Privatni ključ</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
             </div>
@@ -164,7 +164,7 @@
           <div class="col-6">
             <div class="card mt-2 mr-1 card-body bg-dark text-light border-0">
               <div class="form-group">
-                <label for="comment">Comment:</label>
+                <label for="comment">Certitfikat izdavatelja</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
             </div>
@@ -173,7 +173,7 @@
           <div class="col-6">
             <div class="card mt-2 ml-1 card-body bg-dark text-light border-0">
               <div class="form-group">
-                <label for="comment">Comment:</label>
+                <label for="comment">CSR</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
             </div>
