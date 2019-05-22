@@ -55,10 +55,10 @@
     <!-- Nav tabs -->
     <ul class="nav nav-pills mb-2">
       <li class="nav-item">
-        <a class="nav-link active" data-toggle="pill" href="#home">Home</a>
+        <a class="nav-link active" data-toggle="pill" href="#home">Files</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
+        <a class="nav-link" data-toggle="pill" href="#menu1">Text</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
@@ -136,10 +136,58 @@
         <div class="card card-body bg-light border-0 mt-2">
           lorem ipsum
         </div>
-
       </div>
-      <div class="tab-pane container fade" id="menu1">...</div>
-      <div class="tab-pane container fade" id="menu2">...</div>
+
+      <!-- drugi tab -->
+      <div class="tab-pane container fade" id="menu1">
+        <div class="row">
+          <div class="col-6">
+            <div class="card mb-2 mr-1 card-body bg-dark text-light border-0">
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card col ml-1 mb-2 card-body bg-dark text-light border-0">
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6">
+            <div class="card mt-2 mr-1 card-body bg-dark text-light border-0">
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card mt-2 ml-1 card-body bg-dark text-light border-0">
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- details card -->
+        <div class="card card-body bg-light border-0 mt-2">
+          lorem ipsum
+        </div>
+      </div>
+
+      <!-- treci tab -->
+      <div class="tab-pane container fade" id="menu2">...
+      </div>
     </div>
   </div>
 
