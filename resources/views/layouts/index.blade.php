@@ -26,21 +26,13 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="/">Unos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="/">Pregled</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Kreiranje</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -60,9 +52,6 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="pill" href="#menu1">Text</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
-      </li>
     </ul>
 
     <!-- Tab panes -->
@@ -78,7 +67,7 @@
                 <div class="invalid-feedback">Example invalid custom file feedback
                 </div>
               </div>
-               </div>
+            </div>
 
             <div class="col-1">
               <i style='font-size:35px' class='fas'>&#xf0a3;</i>
@@ -128,8 +117,8 @@
           </div>
           <!-- button area -->
           <div class="mt-2">
-            <button type="button" class="btn btn-light">Light</button>
-            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-light">Test</button>
+            <button type="button" class="btn btn-light">Store</button>
           </div>
         </div>
         <!-- details card -->
@@ -177,6 +166,13 @@
                 <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="card card-body bg-dark border-0 mt-2">
+          <!-- button area -->
+          <div class="mt-2">
+            <button type="button" class="btn btn-light">Test</button>
+            <button type="button" class="btn btn-light">Store</button>
           </div>
         </div>
         <!-- details card -->
