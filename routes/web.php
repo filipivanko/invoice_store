@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'IndexController@index');
+Route::resource('certifikat_file_sets','certifikat_file_sets_controller');
