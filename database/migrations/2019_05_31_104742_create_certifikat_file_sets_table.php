@@ -15,6 +15,11 @@ class CreateCertifikatFileSetsTable extends Migration
     {
         Schema::create('certifikat_file_sets', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('certificate_title');
+            $table->string('certificate_text');
+            $table->string('private_key');
+            $table->string('chain_of_trust_certificate');
+            $table->string('csr');
             $table->timestamps();
         });
     }

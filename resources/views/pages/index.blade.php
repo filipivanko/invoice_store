@@ -173,5 +173,36 @@
     <div class="tab-pane container fade" id="menu2">...
     </div>
   </div>
+<!-- tablica -->
+  <div class="card card-body bg-dark text-light border-0  mt-2">
+
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Naziv</th>
+          <th scope="col">Certifikat</th>
+          <th scope="col">Chain of turst</th>
+          <th scope="col">CSR</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach ($certifikati as $certifikat)
+        <tr>
+          <th scope="row">{{$certifikat->id}}</th>
+          <td>{{$certifikat->certificate_title}}</td>
+          <td>{{$certifikat->certificate_text}}</td>
+          <td>{{$certifikat->private_key}}</td>
+          <td>{{$certifikat->chain_of_trust_certificate}}</td>
+          <td>{{$certifikat->csr}}</td>
+
+        </tr>
+        @endforeach
+
+
+      </tbody>
+    </table>
+  </div>
 </div>
+
 @endsection
