@@ -1,0 +1,143 @@
+.page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    width: 21cm;
+    height: 29.7cm; 
+  }
+
+  .gumb_div{
+    width:4cm;
+    height:4cm;
+  }
+
+  .navigation_bar_width {
+    width: 30cm;
+  }
+
+.gornji_dio_fakture {
+width:21cm;
+height:10cm;
+
+}
+.donji_dio_fakture {
+margin-left:1.3cm;
+  
+  }
+
+.gore_lijevo{
+  width:10.4cm;
+  height:10cm;
+}
+.gore_desno_buffer{
+  width:10.4cm;
+  height:0.9cm;
+}
+.gore_desno{
+  width:10.4cm;
+  height:10cm;
+}
+.racun_broj{
+  width:18cm;
+  height:1cm;
+
+}
+.racun_broj_tablica{
+  table-layout: fixed ;
+  width: 100% ;
+}
+
+.tablica{
+  width:21cm;
+margin-bottom: 1cm;
+}
+.donji_dio{
+  width:21cm;
+  height:6cm;
+}
+
+.logo_filgo{
+  width:220px;
+  height:86px;
+}
+.display-block{
+  display: block;
+}
+.ovlastena_osoba{
+  margin-left: 3cm;
+}
+
+.glavna_tablica{
+  border:1px;
+  table-layout: fixed;
+  width: 18cm;
+}
+.tablica_layout{
+  table-layout: fixed;
+}
+
+.kratki_td {
+  border: 1px solid black;
+  width:2cm;
+  height:0.63cm;
+  overflow: hidden;
+}
+
+.iznos_slovima_prvi_red{
+    border: 1px solid black;
+    width:3cm;
+    height:0.72cm;
+    overflow: hidden;
+}
+
+.iznos_slovima_drugi_red{
+  border: 1px solid black;
+  width:15.4cm;
+  height:0.72cm;
+  overflow: hidden;
+}
+
+.tablice_kupac_i_podatci_td {
+  border: 1px solid black;
+  width:41mm;
+  height:0.72cm;
+  overflow: hidden;
+}
+
+
+.tablica_kupac_i_podatci_odstojanje_drugi{
+  margin-left: 20mm;
+  
+}
+
+.dugi_td{
+  border: 1px solid black;
+  width:4cm;
+  height:0.63cm;
+  overflow: hidden;
+}
+
+.input_dugi{
+  width:4cm;
+  height:0.63cm;
+  overflow: hidden;
+}
+.input_kratki{
+  width:2cm;
+  height:0.63cm;
+  overflow: hidden;
+}
+.select_dugi {
+  width:4cm;
+  height:0.63cm;
+  overflow: hidden;
+
+}
+.naziv_tvrtka_postanska_adresa{
+  margin-top: 6cm;
+  margin-left: 2cm;
+}
+
+
