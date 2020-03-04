@@ -14,3 +14,4 @@
 Route::get('/', 'IndexController@index');
 
 Route::get("/fakture" , 'InvoicesController@displayAllInvoices');
+Route::post("/spremi_fakturu" , 'InvoicesController@storeInvoice');

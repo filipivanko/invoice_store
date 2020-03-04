@@ -139,5 +139,8 @@ margin-bottom: 1cm;
   margin-top: 6cm;
   margin-left: 2cm;
 }
+.postavi_scroll {
+  overflow-y:scroll;
+}
 
 

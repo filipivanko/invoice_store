@@ -1,6 +1,7 @@
 @extends('layouts.site_template')
 @section('content')
     <link rel="stylesheet" href="{{ asset('css/customcss.css') }}">
+    <div class="container mt-2 bg-color navigation_bar_width">
     <table>
         <thead>
         <td>Broj fakture</td> <td>Kupac</td> <td>Iznos fakture</td> <td>Datum izdavanja</td>
@@ -11,6 +12,6 @@
             @endforeach
         </tbody>
     </table>
-
+    </div>
 
 @endsection
