@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Invoice;
 use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
+/**
+ * @mixin \Eloquent
+ */
 
 class InvoicesController extends Controller
 {
@@ -14,5 +18,9 @@ class InvoicesController extends Controller
         var_dump(request('input1'));
         var_dump(request('input2'));
         var_dump(request('input3'));
+    }
+    public function showInvoice(){
+        Invoice::first();
+
     }
 }

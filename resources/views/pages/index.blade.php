@@ -19,7 +19,7 @@
                     <a class="nav-link" href="/fakture">Unos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Pregled</a>
+                    <a class="nav-link" href="/vidi_fakturu">Pregled</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/">Kreiranje</a>
@@ -68,9 +68,8 @@
                     <div class="gumb_div mx-auto float-left text-center">
 
                     </div>
-
                     <form action="/spremi_fakturu" method="post">
-                        @csr
+                        @csrf
                     <div class="page float-left " id="faktura">
 
                         <div class="gornji_dio_fakture">
@@ -216,6 +215,12 @@
                                             </select></td>
                                         <td class="kratki_td"><input type="text" class="input_kratki"/></td>
                                         <td class="kratki_td"><input type="text" class="input_kratki"/></td>
+                                        <td class="dugi_td"></td>
+                                        <td class="dugi_td"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" class="text-right">Ukupno:</td>
+                                        <td class="kratki_td"></td>
                                         <td class="dugi_td"></td>
                                         <td class="dugi_td"></td>
                                     </tr>
